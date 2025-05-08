@@ -4,12 +4,80 @@ body{
     padding: 0px;
 }
 
-.container{
-    width: 1190px;
-}
-.header{
-    width: auto;
-    background-color: blue;
-    height: 30px;
+.header {
+    background-color: #4375E7;
+    height: 38px;
+ 
+  }
 
-}
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+  }
+
+  .header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .social-media {
+    display: flex;
+    align-items: center;
+  }
+
+  .follow-text {
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    margin-right: 10px;
+  }
+
+  .social-icon svg {
+    margin-right: 10px;
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
+
+  .social-icon svg:hover {
+    transform: scale(1.2);
+    fill: #f90;
+  }
+
+  .contact-infomation {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .contact-text{
+    margin-right: 10px;
+    color: #FFF;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+
+  .contact-location,
+  .contact-phone,
+  .contact-email {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .contact-location svg,
+  .contact-phone svg,
+  .contact-email svg {
+    margin-right: 8px;
+    fill: white;
+  }
